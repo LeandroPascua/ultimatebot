@@ -962,7 +962,7 @@ def onmessage(update,bot:ObigramClient):
                 # set in debug
             #    api_id = 7386053
             #    api_hash = '78d1c032f3aa546ff5176d9ff0e7f341'
-            #    bot_token = '5450864111:AAEncnIUlSnakkINYF6ElA8-Y_ff7SEezYw'
+            #    bot_token = '5633778543:AAHHpEpEzvsut-AOlLYD4CXvkdMdzJggPwk'
             #    chat_id = int(update.message.chat.id)
             #    message_id = int(update.message.message_id)
             #    import asyncio
@@ -974,8 +974,7 @@ def onmessage(update,bot:ObigramClient):
   
 
 def main():
-    bot_token = '5450864111:AAEncnIUlSnakkINYF6ElA8-Y_ff7SEezYw'
-    
+    bot_token = '5633778543:AAHHpEpEzvsut-AOlLYD4CXvkdMdzJggPwk'
 
     bot = ObigramClient(bot_token)
     bot.onMessage(onmessage)
